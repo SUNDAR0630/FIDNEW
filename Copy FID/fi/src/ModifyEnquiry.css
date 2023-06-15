@@ -1,0 +1,403 @@
+
+
+/* 
+.card card-component {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #ffffff;
+  }
+.customer-id-Wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+  }
+  
+.customer-id-text {
+    color: #000000;
+    font-size: 12px;
+  }
+  
+.contract-type-wrapper {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-end;
+    align-content: flex-end;
+  }
+  
+.contract-type {
+    max-width: 190px;
+    font-size: 11px;
+    color: #004a92;
+    font-weight: bold;
+    padding-left: 5px;
+  }
+  
+.main-applicant-wrapper {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+  
+.main-applicant-name {
+    font-size: 15px;
+    color: #004a92;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+  
+.mobile-no-view {
+    flex-direction: row;
+    margin-top: 2px;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+  }
+  
+.mobile-no-wrapper {
+    width: 50%;
+    flex-direction: row;
+  }
+  
+.mobile-no-text {
+    font-size: 12px;
+    color: black;
+  }
+  
+.gif-wrapper {
+    padding-left: 4px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+.gif {
+    width: 25px;
+    height: 25px;
+    bottom: 5px;
+  }
+.status-wrapper {
+    width: 150%;
+    padding-left: 140%;
+   
+ 
+
+  }
+  
+.status-text {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+  }
+  
+.status-color {
+    color: #004a92;
+  }
+  
+.row {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2px;
+  }
+  
+.location-text {
+    color: #000000;
+    font-size: 12px;
+    padding-top: 5px;
+    max-width: 150px;
+  }
+  
+.loan-amount-text {
+    color: #000000;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 190px;
+  }
+.circularProgressWrapper {
+    display: flex;
+    justify-content: center;
+
+    width: -10%;
+ 
+  }
+  
+.circularProgress {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.circularProgressContent {
+    display: flex;
+  }
+  
+.circularProgressText {
+    font-size: 7px;
+    font-weight: bold;
+  }
+  
+.enquiryDateBox {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    width: 97%;
+    background-color: #2288d5;
+    padding: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-left: -20px;
+    
+  }
+  
+.date {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .date2 {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 180px;
+
+    
+
+  }
+   */
+
+
+
+
+   .card {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #ffffff;
+  }
+  
+  .customer-id-Wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+  }
+  
+  .customer-id-text {
+    color: #000000;
+    font-size: 12px;
+  }
+  
+  .contract-type-wrapper {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: flex-end;
+    align-content: flex-end;
+  }
+  
+  .contract-type {
+    max-width: 190px;
+    font-size: 11px;
+    color: #004a92;
+    font-weight: bold;
+    padding-left: 5px;
+  }
+  
+  .main-applicant-wrapper {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+  
+  .main-applicant-name {
+    font-size: 15px;
+    color: #004a92;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+  
+  .mobile-no-view {
+    flex-direction: row;
+    margin-top: 2px;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+  }
+  
+  .mobile-no-wrapper {
+    width: 50%;
+    flex-direction: row;
+  }
+  
+  .mobile-no-text {
+    font-size: 12px;
+    color: black;
+  }
+  
+  .gif-wrapper {
+    padding-left: 4px;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .gif {
+    width: 25px;
+    height: 25px;
+    bottom: 5px;
+  }
+  
+  .status-wrapper {
+    width: 100%;
+    padding-left: 140%;
+  }
+  
+  .status-text {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .status-color {
+    color: #004a92;
+  }
+  
+  .row {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2px;
+  }
+  
+  .location-text {
+    color: #000000;
+    font-size: 12px;
+    padding-top: 5px;
+    max-width: 150px;
+  }
+  
+  .loan-amount-text {
+    color: #000000;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 190px;
+  }
+  
+  .circularProgressWrapper {
+    display: flex;
+    justify-content: center;
+    width: -10%;
+  }
+  
+  .circularProgress {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .circularProgressContent {
+    display: flex;
+  }
+  
+  .circularProgressText {
+    font-size: 7px;
+    font-weight: bold;
+  }
+  
+  .enquiryDateBox {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    width: 97%;
+    background-color: #2288d5;
+    padding: 10px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-left: -20px;
+  }
+  
+  .date {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .date2 {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-left: 180px;
+  }
+  
+
+  
+  /* @media (max-width: 767px) {
+  
+    .card {
+      padding: 10px;
+    }
+  
+    .contract-type-wrapper {
+      justify-content: flex-start;
+    }
+  
+    .contract-type {
+      max-width: 100%;
+      padding-left: 0;
+    }
+  
+    .main-applicant-name {
+      font-size: 14px;
+    }
+  
+    .mobile-no-view {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .mobile-no-wrapper {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  
+    .loan-amount-text {
+      padding-left: 0;
+      margin-top: 5px;
+    }
+  
+    .circularProgressWrapper {
+      width: 100%;
+    }
+  
+    .enquiryDateBox {
+      padding-left: 0;
+    }
+  
+    .date2 {
+      padding-left: 0;
+    }
+  }
+   */
+   @media only screen and (max-width: 760px),
+   (min-device-width: 768px) and (max-device-width: 1024px) {
+    .customer-id-Wrapper {
+      flex-wrap: wrap;
+    }
+  
+    .contract-type {
+      max-width: 150px;
+    }
+  
+    .main-applicant-name {
+      font-size: 14px;
+    }
+  
+    .mobile-no-wrapper {
+      width: 100%;
+    }
+  
+  }
+  
